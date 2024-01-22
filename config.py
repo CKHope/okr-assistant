@@ -13,8 +13,8 @@
 
 def OKR_O_helper(objective:str="achive 2 million gross sales in next quarter"):
     _okr_objective_helper=[
-        f'What are some relevant OKRs that I can set to {objective}?',
-        f'What are effective Key Results I should consider if my Objective is to {objective}',
+        f'What are some relevant OKRs that I can set to {objective}? Please also give a clear timeline for each one.',
+        f'What are effective Key Results I should consider if my Objective is to {objective}. Please also give a clear timeline for each one.',
         # f'What are the best success metrics and KPIs for measuring: "{objective}"',
     ]
     return _okr_objective_helper
