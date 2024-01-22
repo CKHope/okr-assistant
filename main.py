@@ -5,7 +5,7 @@ from config import *
 
 st.title("🤖Generative AI OKR helper")
 # Or use `os.getenv('GOOGLE_API_KEY')` to fetch an environment variable.
-GOOGLE_API_KEY='AIzaSyB4UJ9nA4c3mhFXmfx-45XZil-67OHLBo4'
+GOOGLE_API_KEY='AIzaSyDejiC_S0NiWQWy6aqPBVuXaCBJ56ktWmw'
 genai.configure(api_key=GOOGLE_API_KEY)    
 
 model = genai.GenerativeModel('gemini-pro')
